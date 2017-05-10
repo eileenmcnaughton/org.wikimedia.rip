@@ -20,7 +20,7 @@
   <compatibility>
     <ver>4.7</ver>
   </compatibility>
-  <comments>CiviCRM functions usually respect the is_deceased flag so this is only necessary if it helps your data processes. Email addresses are also put on hold</comments>
+  <comments>CiviCRM functions usually respect the is_deceased flag so this is only necessary if it helps your data processes.</comments>
   <civix>
     <namespace>CRM/Rip</namespace>
   </civix>
