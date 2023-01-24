@@ -23,5 +23,10 @@
   <comments>CiviCRM functions usually respects the is_deceased flag so this is only necessary if it helps your data processes.</comments>
   <civix>
     <namespace>CRM/Rip</namespace>
+    <format>22.12.1</format>
   </civix>
+  <classloader>
+    <psr0 prefix="CRM_" path="."/>
+  </classloader>
+  <upgrader>CRM_Rip_Upgrader</upgrader>
 </extension>
