@@ -68,14 +68,3 @@ function rip_civicrm_navigationMenu(&$menu) {
   ));
   _rip_civix_navigationMenu($menu);
 } // */
-
-
-
-/**
- * Implements hook_civicrm_entityTypes().
- *
- * @link https://docs.civicrm.org/dev/en/latest/hooks/hook_civicrm_entityTypes
- */
-function rip_civicrm_entityTypes(&$entityTypes) {
-  _rip_civix_civicrm_entityTypes($entityTypes);
-}
