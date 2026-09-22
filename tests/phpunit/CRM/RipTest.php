@@ -44,8 +44,8 @@ class CRM_RipTest extends TestCase implements HeadlessInterface, TransactionalIn
    * @throws \CRM_Core_Exception
    */
   public function testChanges(): void {
-    $ziggy = civicrm_api3('Contact', 'create', array('first_name' => 'David', 'last_name' => 'Bowie', 'contact_type' => 'Individual', 'is_deceased' => 1));
-    $this->assertEquals(1, civicrm_api3('Contact', 'getvalue', array('id' => $ziggy['id'], 'return' => 'is_opt_out')));
+    $ziggy = civicrm_api3('Contact', 'create', ['first_name' => 'David', 'last_name' => 'Bowie', 'contact_type' => 'Individual', 'is_deceased' => 1]);
+    $this->assertEquals(1, civicrm_api3('Contact', 'getvalue', ['id' => $ziggy['id'], 'return' => 'is_opt_out']));
   }
 
 }
